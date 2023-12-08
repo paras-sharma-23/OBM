@@ -1,0 +1,28 @@
+.second-section{
+    background-color: #faf7e6;
+    padding-bottom: 110px;
+    padding-top: 110px;
+}
+.inner-container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inner-container h2{
+    text-align: center;
+    color: #a8864b;
+    font-size: 46px;
+    line-height: 56px;
+}
+.grid-section{
+    background-color: #e5e2c8;
+    border-radius: 50px;
+    margin-bottom: 25px;
+    padding: 25px 25px 30px;
+    transition: .3s;    
+    height: 94.7%;
+    width: 25%;
+
+}
+
+

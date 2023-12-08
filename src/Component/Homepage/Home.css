@@ -1,0 +1,49 @@
+.first-section{
+    background-color: #ddd;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* z-index: 2; */
+    margin-bottom: auto;
+   
+
+}
+#video{
+    /* position: absolute; */
+    object-fit: cover;
+    width: 100%;
+    /* z-index: 0; */
+    height: 800px;
+   
+}
+ .overplay{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 27vmax;
+}
+.inner-text{
+    position: absolute;
+    top: 50%;
+    display: flex;
+    margin-left: 4vmax;
+    margin-right: 40vmax;
+    flex-wrap: wrap;
+}
+.inner-text h1{
+    color: #fff;
+    font-size: 75px;
+    font-weight: 700;
+    font-family: Lato,serif;
+    line-height: 85px;
+    margin-bottom: 40px;
+}
+.inner-text p{
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    margin-right: 6vmax;
+    font-family: Merriweather,Georgia,serif;
+}
