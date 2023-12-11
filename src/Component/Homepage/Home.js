@@ -4,8 +4,8 @@ import video from '../Assests/video.mp4'
 
 const Home = () => {
   return (
-    <div className='First-section'>
-        <video id='video' width='100%' autoPlay loop>
+    <div className='first-section'>
+        <video id='video' width='100%'  autoPlay loop  muted playsInline>
             <source src={video}/>
         </video>
         <div className="overplay">

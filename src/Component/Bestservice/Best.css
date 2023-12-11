@@ -1,0 +1,10 @@
+.fifth-section{
+    background: #faf7e6;
+    height: 592px;
+    padding-top: 380px;
+    padding-bottom: 110px;
+}
+.fifth-section .section-title h2{
+    color: #efb44b;
+    font-family: 'Lato',serif;
+}
