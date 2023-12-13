@@ -1,24 +1,22 @@
 import React from 'react'
 import './Contact.css'
-// import img from '../Assests/contact-us-image.jpg'
+import img from '../Assests/contact-us-image.jpg'
 
 const Contact = () => {
   return (
     <div className='eight-section'>
         <div className="inner-container">
             <div className="left-side">
-                <div className="contact-img">
-                    <img src="" alt="" />
-                </div>
-
+                    <img src={img} alt="" />
             </div>
             <div className="right-side">
                 <div className="section-title">
                     <h2>Contact Us</h2>
                     <form action="">
-                        <div className='contact-form'>
-                        <input type="text" id="fname" name="select service" placeholder="select service "/>
-                            <select name="Insurance" id="Insurance" form="">
+                    <div className='contact-form'>
+                        <div>
+                            <input className='input'  type="text" id="fname" name="select service" placeholder="Select Service "/>
+                            <select className='select-list' name="Insurance" id="Insurance" form="">
                                 <option value="Insurance">Insurance</option>
                                 <option value="volvo">Volvo</option>
                                 <option value="saab">Saab</option>
@@ -27,21 +25,19 @@ const Contact = () => {
                             </select>
                         </div>
                         <div>
-                        <input type="text" id="name" name="name service" placeholder="Name "/>
-                        <input type="email" id="email" name="email" placeholder="Email "/>
+                            <input className='input' type="text" id="name" name="name service" placeholder="Name "/>
+                            <input className='input'  type="email" id="email" name="email" placeholder="Email "/>
                         </div>
                         <div>
-                        <input type="text" id="subject" name="subject" placeholder="Subject "/>
+                            <input className='Subject' type="text" id="subject" name="subject" placeholder="Subject "/>
                         </div>
                         <div>
-                        <textarea type="text" id="fname" name="select service" placeholder="select service "/>
+                             <textarea  type="text" id="message" name="select service" rows="7" cols="55" placeholder="Write Message Here"/>
                         </div>
-
-
-
+                    <a href="">Send Your Query</a>
+                    </div>
                     </form>
                 </div>
-
             </div>
         </div>
     </div>
