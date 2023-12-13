@@ -35,7 +35,7 @@
     display: flex;
   align-items: center;
   /* border: 2px solid rebeccapurple; */
-  margin-right: 9vmax;
+  margin-right: 5vmax;
   padding-right: 3vmax;
 }
 .nav a{

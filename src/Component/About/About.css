@@ -42,9 +42,9 @@
     animation-duration: 4s;
     animation-iteration-count: infinite;
     transform: translate(0);
-    left: -160px;
+    left: -175px;
     position: absolute;
-    top: 30%;
+    top: 20%;
     z-index: 2;
 }
 .about-small-img img{

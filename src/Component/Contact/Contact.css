@@ -1,0 +1,19 @@
+.eight-section{
+    width: 100vw;
+    background-color: #a8864b;
+    color: #fff;
+}
+.eight-section .inner-container{
+    display: flex;
+}
+.eight-section .left-side{
+    width: 50%;
+    border: 2px solid black;
+}
+.eight-section .right-side{
+    width: 50vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+}
