@@ -8,7 +8,7 @@
     margin-right: auto;
     width: 100%;
     padding-top: 6px;
-    padding-left: 5px;
+    padding-left: 95px;
     /* border: 2px solid black; */
     display: flex;
     justify-content: space-between;
@@ -17,10 +17,10 @@
     margin-left: 30px;
 } */
 .logo img{
-    width: 125px;
+    width: 140px;
     padding-top: 0px;
     margin-top: 0px;
-    margin-left: 40px;
+    margin-left: 50px;
     display: inline-flex;
     margin-right: 20px;
 
@@ -35,7 +35,7 @@
     display: flex;
   align-items: center;
   /* border: 2px solid rebeccapurple; */
-  margin-right: 5vmax;
+  margin-right: 9vmax;
   padding-right: 3vmax;
 }
 .nav a{

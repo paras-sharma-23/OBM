@@ -4,9 +4,10 @@
     padding-top: 110px;
 }
 .inner-container{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+        width: 85vw;
+        /* width: 100%; */
+        margin-left: auto;
+        margin-right: auto;
 }
 .section-title h2{
     text-align: center;
@@ -24,6 +25,23 @@
     padding: 25px 25px 30px;
     transition: .3s;    
     width: 21%;
+}
+.grid-section:hover{
+    background-color: #efb44b;
+    transition: .4s;
+}
+.grid-section:hover h3{
+    color: white;
+}
+.grid-section:hover p{
+    color: #fff;
+}
+.grid-section:hover button{
+    background-color: #efb44b;
+    color: #fff;
+    padding: 5px 30px;
+    border: 2px solid #fff;
+    border-radius: 50px;
 }
 .service-icon{
     align-items: center;
@@ -55,7 +73,7 @@
 .grid-section p{
     margin-bottom: 20px;
     color: #686868;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 28px;
     margin-top: 0;

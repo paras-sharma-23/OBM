@@ -5,6 +5,7 @@ import Best from './Component/Bestservice/Best';
 import Contact from './Component/Contact/Contact';
 import Description from './Component/Description/Description';
 import Faq from './Component/Faq/Faq';
+import Footer from './Component/Footer/Footer';
 import Home from './Component/Homepage/Home';
 import Learn from './Component/Learn/Learn';
 import Nav from './Component/Nav';
@@ -24,7 +25,8 @@ function App() {
     <Learn />
     <Description />
     <Contact />
-    {/* <Faq /> */}
+    <Faq />
+    <Footer />
    
     </>
   );

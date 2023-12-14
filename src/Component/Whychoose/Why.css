@@ -37,9 +37,21 @@
     margin-left: 29px;
     width: 22%;
 }
+.inner-block .grid-section:hover{
+    background-color: #a8864b;
+}
+.inner-block .grid-section:hover h5{
+    color: #fff;
+}
+.inner-block .grid-section:hover p{
+    color: #fff;
+}
+.inner-block .grid-section:hover .service-icon{
+    background-color: inherit;
+}
 .inner-block .grid-section .service-icon{
     background-color:rgb(255,255,255) ;
-    margin: 0px 0 5px 55px;
+    margin: 0px 0 15px 55px;
     /* align-items: center; */
 }
 .inner-block .grid-section h5{
@@ -53,7 +65,7 @@
 }
 .inner-block .grid-section p{
     text-align: center;
-    color: #686868 !important;
+    color: #686868 ;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;

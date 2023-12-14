@@ -21,14 +21,14 @@
     position: absolute;
     z-index: 1;
     width: 100%;
-    top: 27vmax;
+    top: 15vmax;
 }
 .inner-text{
     position: absolute;
     top: 50%;
     display: flex;
     margin-left: 4vmax;
-    margin-right: 40vmax;
+    margin-right: 44vmax;
     flex-wrap: wrap;
 }
 .inner-text h1{

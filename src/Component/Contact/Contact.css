@@ -5,6 +5,7 @@
 }
 .eight-section .inner-container{
     display: flex;
+    width: 100%;
 }
 .eight-section .left-side{
     width: 50%;
@@ -27,6 +28,7 @@
     text-align: left;
     margin-bottom: 0;
     margin-top: 50px;
+    margin-bottom: 20px;
     font-family: Lato,serif;
 
 }
@@ -53,7 +55,8 @@
     padding: 25px;
     margin: 10px;
     text-align: center;
-    color: #c5b08f;
+    background-color: #efb44b;
+    color: #fff;
     font-family: Merriweather,Georgia,serif;
     font-size: 16px;
 
@@ -86,4 +89,5 @@
     width: 95%;
     text-align: center;
     margin: 10px;
+    margin-bottom: 50px;
 }
