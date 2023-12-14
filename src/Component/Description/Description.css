@@ -60,3 +60,32 @@
     outline: none;
     text-decoration: none;
 }
+.side{
+        margin-left: 30px;
+
+}
+
+@media screen and (min-width: 480px){
+    .seventh-section .leftside .about:before {
+        left: -7%;
+        width: 75%;
+        height: 35%;
+    }
+    .leftside img {
+        padding-right: 0px;
+    }
+    
+
+.seventh-section .right h2 {
+    font-size: 30px;
+}
+    .seventh-section .right p {
+       margin-right: 9px;
+        font-size: 18px;
+    }
+    .seventh-section .right a {
+        font-size: 18px;
+    }
+}
+
+

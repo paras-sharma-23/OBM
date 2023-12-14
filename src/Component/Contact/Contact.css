@@ -14,6 +14,7 @@
 .eight-section .left-side img{
  width: 100%;
  height: -webkit-fill-available;
+ object-fit: cover;
 }
 .eight-section .right-side{
     width: 50%;
@@ -90,4 +91,28 @@
     text-align: center;
     margin: 10px;
     margin-bottom: 50px;
+}
+
+@media screen and (min-width: 480px){
+    .eight-section .right-side {
+        padding-left: 30px;
+    }
+
+    .eight-section .right-side .contact-form .input {
+        width: 80%;
+    }
+    .contact-form .Subject {
+        width: 80%;
+    }
+    .contact-form .select-list {
+        width: 80%;
+    }
+    .contact-form textarea {
+        width: 80%;
+    }
+    .contact-form a {
+        width: 80%;
+    }
+
+        
 }

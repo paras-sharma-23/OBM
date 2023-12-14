@@ -87,3 +87,27 @@
     text-decoration: none;
     text-align: center;
 }
+
+
+@media screen and (min-width: 480px){
+    .sixth-container .left-side {
+        width: 60%;
+        padding-left: 10px;
+        padding-right: 0;
+    }
+    .left-side p {
+        font-size: 20px;
+    }
+    
+     .right-side .inner-content {
+        padding-top: 110px;
+     }
+     .right-side .inner-content a {
+        font-size: 20px;
+        padding: 30px 40px!important;
+     }
+     .left-side a {
+        font-size: 18px;
+        padding: 22px 40px!important;
+     }
+}

@@ -110,3 +110,26 @@
     outline: none;
     text-decoration: none;
 }
+
+@media screen and (min-width: 480px){
+    .right_container h2 {
+        /* font-size: 30px;
+        line-height: 40px; */
+        padding-top: 20px;
+    }
+    .third-section .inner-container {
+        display: block;
+    }
+    .about img {
+        width: 100%;
+    }
+    .about-small-img {
+        top: 27%;
+    }
+    .left-container {
+        width: -webkit-fill-available;
+    }
+    .right_container {
+        width: -webkit-fill-available;
+    }
+}

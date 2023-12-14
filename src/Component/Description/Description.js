@@ -42,8 +42,8 @@ const Description = () => {
                 </div>
             
             </div>
-            <div className="leftside">
-            <div className="about">
+            <div className="leftside ">
+            <div className="about side">
                 <img src={money} alt="" />
                 </div>
                

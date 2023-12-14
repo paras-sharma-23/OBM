@@ -50,3 +50,15 @@
 .nav .active{
     color: #efb44b!important;
 }
+
+@media screen and (min-width: 480px){
+    .header-bottom {
+        padding-left: 0px;
+    }
+    .nav {
+         margin-right: 0; 
+         padding-right: 0;
+    }
+
+}
+
