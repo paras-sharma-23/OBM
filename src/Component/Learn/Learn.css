@@ -89,7 +89,7 @@
 }
 
 
-@media screen and (min-width: 480px){
+@media screen and (max-width: 768px){
     .sixth-container .left-side {
         width: 60%;
         padding-left: 10px;

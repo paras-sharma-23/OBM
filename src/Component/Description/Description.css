@@ -65,7 +65,7 @@
 
 }
 
-@media screen and (min-width: 480px){
+@media screen and (max-width: 768px){
     .seventh-section .leftside .about:before {
         left: -7%;
         width: 75%;
