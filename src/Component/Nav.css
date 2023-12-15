@@ -62,3 +62,20 @@
 
 }
 
+@media screen and (max-width: 1025px){
+    .header-bottom {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+    .logo img {
+        width: 40%;
+        padding-top: 10px;
+        margin-left: 20px;
+    }
+    .nav {
+        margin-right: 0vmax;
+        padding-right: 3vmax;
+    }
+}
+

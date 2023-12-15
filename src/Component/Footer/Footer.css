@@ -77,11 +77,13 @@ position: absolute;
 @media only screen and (max-width: 1102px){
     .footer-section{
         flex-direction: row;
+        gap: 22px;
     }
-    .section, .section-section {
+    .section, .section-second {
         width: unset;
         flex-direction: column;
         gap: 40px;
+        justify-content: flex-start;
     }
     .footer-flex {
          width: unset;
@@ -92,7 +94,7 @@ position: absolute;
         flex-direction: column;
         gap: 30px;
     }
-    .section, .section-section {
+    .section, .section-second {
         width: unset;
         flex-direction: column;
         gap: 40px;

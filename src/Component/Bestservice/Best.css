@@ -57,4 +57,16 @@
         width: 48%;
         margin-left: 5px;
     }
+    .card-wrapper {
+        flex-wrap: wrap;
+    }
+    .card .image-box {
+      
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 426px){
+    .card {
+        width: 100% !important;
+    }
 }

@@ -3,7 +3,7 @@
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 592px;
+    height: auto;
     padding-bottom: 110px;
     padding-top: 110px;
     opacity: .7;
@@ -35,7 +35,7 @@
     background-color: rgb(255,255,255);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-left: 29px;
-    width: 22%;
+    /* width: 22%; */
 }
 .inner-block .grid-section:hover{
     background-color: #a8864b;
@@ -78,14 +78,15 @@
         height: auto;
     }
     .inner-container {
-        width: 95vw;
+        width: 85vw;
     }
     .inner-block {
         width: 100%;
         margin-left: auto;
     }
     .inner-block .grid-section {
-        margin-left: 25px;
+        margin-left: 22px;
+        /* margin-right: 20px; */
         width: 45%;
     }
     .inner-block .grid-section h5 {
@@ -102,5 +103,27 @@
         max-height: -1px;
          max-width: -1px;
     }
+}
+@media screen and (max-width: 1025px){
+    .inner-block .grid-section h5 {
+        font-size: 25px;
+    }
+    .inner-block .grid-section .service-icon {
+       
+        margin: 0px 0 15px 90px;
+    }
+    .service-icon img {
+        max-height: -1px;
+        max-width: 100%;
+    }
+
+}
+@media screen and ( max-width: 426px){
+
+    .inner-block .grid-section {
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+}
+    
 }
 

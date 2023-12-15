@@ -87,5 +87,19 @@
         font-size: 18px;
     }
 }
+@media screen and (max-width: 1025px){
+    .seventh-section .leftside .about:before {
+        top: 12%;
+        left: -8%;
+    }
+    .leftside .about:before {
+        height: 50%;
+    }
+}
+@media screen and (max-width: 426px){
+    .seventh-section .inner-container {
+         display: block;
+    }
+}
 
 

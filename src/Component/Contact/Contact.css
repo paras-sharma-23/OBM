@@ -95,11 +95,16 @@
 
 @media screen and (max-width: 768px){
     .eight-section .right-side {
-        padding-left: 30px;
+        padding-left: 40px !important;
     }
 
     .eight-section .right-side .contact-form .input {
         width: 80%;
+    }
+    .eight-section .right-side h2 {
+        margin-left: 10px;
+        margin-top: 50px;
+        margin-bottom: 5px;
     }
     .contact-form .Subject {
         width: 80%;
@@ -113,6 +118,12 @@
     .contact-form a {
         width: 80%;
     }
-
-        
+}
+@media screen and (max-width: 1205px){
+    .eight-section .right-side {
+        padding-left: 10px;
+    }
+    .eight-section .section-title h2 {
+        font-size: 35px;
+    }
 }
