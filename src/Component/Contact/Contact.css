@@ -127,3 +127,14 @@
         font-size: 35px;
     }
 }
+@media screen and (max-width: 426px){
+    .eight-section .left-side img {
+        display: none;
+    }
+    .eight-section .left-side {
+        display: none;
+    }
+    .eight-section .right-side {
+        width: 100%;
+    }
+}

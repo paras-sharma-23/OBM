@@ -16,6 +16,7 @@
 /* .container{
     margin-left: 30px;
 } */
+
 .logo img{
     width: 140px;
     padding-top: 0px;
@@ -50,6 +51,58 @@
 .nav .active{
     color: #efb44b!important;
 }
+.nav a:hover{
+    color:  #efb44b;
+}
+.none
+{
+    display: none;
+}
+.service{
+    position: relative;
+}
+.dropdown-content {
+    border-top: 4px solid #efb44b;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 96vmax;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    right: 0;
+    left: -71vmax;
+    top: 38px;
+    padding: 30px;
+  }
+  .display{
+    display: none;
+    position: relative;
+  }
+  .service:hover .display{
+    display: block;
+  }
+ 
+  .dropdown-content h3{
+    color: #a8864b;
+    font-family: Merriweather,Georgia,serif;
+    text-align: left;
+  }
+.dropdown-content a {
+    /* color: #efb44b; */
+    position: relative;
+    /* top: 0; */
+    float: none;
+    padding-top: 12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: 'Merriweather',Georgia,serif;
+    font-size: 16px;
+    font-weight: 100;
+   
+  }
+
 
 @media screen and (max-width: 768px){
     .header-bottom {
@@ -76,6 +129,67 @@
     .nav {
         margin-right: 0vmax;
         padding-right: 3vmax;
+    }
+}
+@media screen and (max-width: 426px){
+    .nav {
+        display: none;
+    }
+    .logo img {
+        width: 20%;
+    }
+    .header-bottom {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    /* sidebar menu */
+    .none{
+        display: block;
+    }
+    .sidebar-toggle {
+        position: sticky;
+        top: 2rem;
+        right: 1rem;
+        font-size: 2rem;
+        background: transparent;
+        border-color: transparent;
+        cursor: pointer;
+        color: grey;
+    }
+    .sidebar-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.5rem;
+    }
+    .close-btn {
+        font-size: 1.75rem;
+        background: transparent;
+        border-color: transparent;
+        color: white;
+    }
+    .links li{
+        list-style-type: none;
+    }
+    .links a {
+        display: block;
+        font-size: 18px;
+        padding: 1rem 1.5rem;
+        color: #f8f9fa;
+        text-decoration: none;
+    }    
+    .sidebar{
+        width: 45%;
+        background-color: #a8864b;
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 2;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+    }
+    .collaspe{
+        display: none;
     }
 }
 

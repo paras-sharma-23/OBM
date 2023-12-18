@@ -54,7 +54,7 @@ const Faq = () => {
         <Accordion style={styleObj}>
             <AccordionItem style={items}>
                 <AccordionItemHeading>
-                    <AccordionItemButton style={itemButton}>
+                    <AccordionItemButton className='title' style={itemButton}>
                     What is statutory health insurance (SHI) in Germany?
                     </AccordionItemButton>
                 </AccordionItemHeading>
@@ -67,7 +67,7 @@ const Faq = () => {
 
             <AccordionItem style={items}>
                 <AccordionItemHeading>
-                    <AccordionItemButton style={itemButton}>
+                    <AccordionItemButton className='title' style={itemButton}>
                     How does the German healthcare system work?
                     </AccordionItemButton>
                 </AccordionItemHeading>
@@ -80,7 +80,7 @@ const Faq = () => {
 
             <AccordionItem style={items}>
                 <AccordionItemHeading>
-                    <AccordionItemButton style={itemButton}>
+                    <AccordionItemButton className='title' style={itemButton}>
                     How does the German healthcare system work?
                     </AccordionItemButton>
                 </AccordionItemHeading>
@@ -94,7 +94,7 @@ const Faq = () => {
             
             <AccordionItem style={items}>
                 <AccordionItemHeading>
-                    <AccordionItemButton style={itemButton}>
+                    <AccordionItemButton className='title' style={itemButton}>
                     Can I choose my own doctor and hospital with SHI?
                     </AccordionItemButton>
                 </AccordionItemHeading>
@@ -107,7 +107,7 @@ const Faq = () => {
 
             <AccordionItem style={items}>
                 <AccordionItemHeading>
-                    <AccordionItemButton style={itemButton}>
+                    <AccordionItemButton className='title' style={itemButton}>
                     What's the difference between statutory and private health insurance in Germany?
                     </AccordionItemButton>
                 </AccordionItemHeading>
@@ -121,7 +121,7 @@ const Faq = () => {
 
             <AccordionItem style={items}>
                 <AccordionItemHeading>
-                    <AccordionItemButton style={itemButton}>
+                    <AccordionItemButton className='title' style={itemButton}>
                     How much does health insurance cost in Germany?
                     </AccordionItemButton>
                 </AccordionItemHeading>
@@ -134,7 +134,7 @@ const Faq = () => {
 
             <AccordionItem style={items}>
                 <AccordionItemHeading>
-                    <AccordionItemButton style={itemButton}>
+                    <AccordionItemButton className='title' style={itemButton}>
                     How much does health insurance cost in Germany?
                     </AccordionItemButton>
                 </AccordionItemHeading>
@@ -147,7 +147,7 @@ const Faq = () => {
 
             <AccordionItem style={items}>
                 <AccordionItemHeading>
-                    <AccordionItemButton style={itemButton}>
+                    <AccordionItemButton className='title' style={itemButton}>
                     Who is eligible for statutory health insurance in Germany?
                     </AccordionItemButton>
                 </AccordionItemHeading>
@@ -161,7 +161,7 @@ const Faq = () => {
 
             <AccordionItem style={items}>
                 <AccordionItemHeading>
-                    <AccordionItemButton style={itemButton}>
+                    <AccordionItemButton className='title' style={itemButton}>
                     Is private health insurance in Germany worth it?
                     </AccordionItemButton>
                 </AccordionItemHeading>
@@ -174,7 +174,7 @@ const Faq = () => {
 
             <AccordionItem style={items}>
                 <AccordionItemHeading>
-                    <AccordionItemButton style={itemButton}>
+                    <AccordionItemButton className='title' style={itemButton}>
                     What are the benefits of private health insurance in Germany?
                     </AccordionItemButton>
                 </AccordionItemHeading>
@@ -187,7 +187,7 @@ const Faq = () => {
 
             <AccordionItem style={items}>
                 <AccordionItemHeading>
-                    <AccordionItemButton style={itemButton}>
+                    <AccordionItemButton className='title' style={itemButton}>
                     How does the German healthcare system compare to other countries?
                     </AccordionItemButton>
                 </AccordionItemHeading>
@@ -200,7 +200,7 @@ const Faq = () => {
 
             <AccordionItem style={items}>
                 <AccordionItemHeading>
-                    <AccordionItemButton style={itemButton}>
+                    <AccordionItemButton className='title' style={itemButton}>
                     What is the annual insurance limit for 2023?
                     </AccordionItemButton>
                 </AccordionItemHeading>

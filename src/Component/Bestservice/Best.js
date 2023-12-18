@@ -44,8 +44,6 @@ const Best = () => {
                     <p>Write me a 20 words advertising copy website section which talks about Health insurance services to immigrants.</p>
                   </div>
                 </div>
-
-
               </div>
             </div>
         </div>

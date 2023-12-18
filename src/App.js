@@ -1,4 +1,3 @@
-
 import './App.css';
 import About from './Component/About/About';
 import Best from './Component/Bestservice/Best';
@@ -14,9 +13,11 @@ import Why from './Component/Whychoose/Why';
 
 
 function App() {
+ 
+
   return (
     <>
-    <Nav />
+    <Nav/>
     <Home />
     <Services />
     <About />
@@ -27,6 +28,7 @@ function App() {
     <Contact />
     <Faq />
     <Footer />
+
    
     </>
   );

@@ -30,7 +30,7 @@ const Description = () => {
 
 
 
-        <div className="inner-container">
+        <div className="inner-container column-reverse">
             <div className="right">
             <div className="inner-content">
                     <h2>Money Transfer</h2>
@@ -42,9 +42,9 @@ const Description = () => {
                 </div>
             
             </div>
-            <div className="leftside ">
+            <div className="leftside">
             <div className="about side">
-                <img src={money} alt="" />
+                <img className='img' src={money} alt="" />
                 </div>
                
             </div>
@@ -52,7 +52,7 @@ const Description = () => {
             
 
         </div>
-    </div>
+     </div>
   )
 }
 
