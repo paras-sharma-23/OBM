@@ -1,0 +1,16 @@
+.scroll-up-down{
+    position: fixed;
+    right: 0;
+    bottom: 20px;
+    background-color: #efb44b!important;
+    border-radius: 50px!important;
+    bottom: 45px!important;
+    color: #fff!important;
+    font-size: 18px!important;
+    height: 61px!important;
+    line-height: 61px!important;
+    right: 20px!important;
+    text-align: center!important;
+    width: 50px!important;
+    border: none;
+}

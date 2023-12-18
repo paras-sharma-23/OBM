@@ -9,6 +9,7 @@ import Home from './Component/Homepage/Home';
 import Learn from './Component/Learn/Learn';
 import Nav from './Component/Nav';
 import Services from './Component/Ourservices/Services';
+import Scroll from './Component/Scrollbtn/Scroll';
 import Why from './Component/Whychoose/Why';
 
 
@@ -28,6 +29,7 @@ function App() {
     <Contact />
     <Faq />
     <Footer />
+    <Scroll />
 
    
     </>
