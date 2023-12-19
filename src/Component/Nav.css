@@ -45,7 +45,7 @@
     font-size: 18px;
     font-weight: 600;
     text-decoration: none;
-    display: block;
+    display: inline-block;
     font-family: Merriweather,Georgia,serif;
 }
 .nav .active{
@@ -60,6 +60,7 @@
 }
 .service{
     position: relative;
+
 }
 .dropdown-content {
     border-top: 4px solid #efb44b;
@@ -74,13 +75,21 @@
     left: -71vmax;
     top: 38px;
     padding: 30px;
+    transition:   all 0.5s cubic-bezier(0.4, 0, 1, 1);
+    visibility: hidden;
+    opacity: 0;
   }
   .display{
-    display: none;
+    /* display: none; */
     position: relative;
+    
+
+
+    
   }
-  .service:hover .display{
-    display: block;
+.service:hover .dropdown-content  {
+visibility: visible;
+    opacity: 1;
   }
  
   .dropdown-content h3{
@@ -100,7 +109,6 @@
     font-family: 'Merriweather',Georgia,serif;
     font-size: 16px;
     font-weight: 100;
-   
   }
 
 

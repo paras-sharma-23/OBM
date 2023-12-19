@@ -2,6 +2,7 @@ import './App.css';
 import About from './Component/About/About';
 import Best from './Component/Bestservice/Best';
 import Contact from './Component/Contact/Contact';
+import Coursel from './Component/Coursel/Coursel';
 import Description from './Component/Description/Description';
 import Faq from './Component/Faq/Faq';
 import Footer from './Component/Footer/Footer';
@@ -24,6 +25,7 @@ function App() {
     <About />
     <Why />
     <Best />
+    {/* <Coursel /> */}
     <Learn />
     <Description />
     <Contact />

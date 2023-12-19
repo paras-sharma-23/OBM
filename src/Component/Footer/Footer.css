@@ -41,7 +41,7 @@
 }
 .footer-newsletter input[type='email']{
  border-radius: 28px;
-    padding: 22px 67px;
+    padding: 24px 40px;
     border: none;
 }
 .footer-newsletter button{
@@ -74,6 +74,16 @@ position: absolute;
 .our-services .footer-flex{
     width: auto;
 }
+.socail-icon {
+   /* color: #fff; */
+   display: flex;
+   gap: 15px;
+}
+
+.footer-flex  li:hover{
+    color: #EFB44B;
+}
+
 @media only screen and (max-width: 1102px){
     .footer-section{
         flex-direction: row;

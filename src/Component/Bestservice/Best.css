@@ -14,8 +14,24 @@
 .card{
     /* background-color: #fff; */
     width: 30%;
-    margin-left: 30px;
+    margin-left: 40px;
+    border-radius: 50px;
    
+}
+.carousel-item {
+    display: flex !important;
+}
+.carousel{
+    background: #faf7e6;
+    padding-top: 380px;
+    padding-bottom: 110px;
+}
+
+element.style {
+    background-color: black;
+}
+.carousel-indicators {
+    background-color: black;
 }
 .card .image-box{
     /* height: 253px; */

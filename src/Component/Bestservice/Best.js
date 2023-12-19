@@ -35,13 +35,13 @@ const Best = () => {
                 </div>
 
 
-                <div className="card">
-                  <div className="image-box">
-                    <img src={Money} alt="" />
-                  </div>
-                  <div className="content">
-                    <h5>Money Transfer</h5>
-                    <p>Write me a 20 words advertising copy website section which talks about Health insurance services to immigrants.</p>
+                  <div className="card">
+                    <div className="image-box">
+                      <img src={Money} alt="" />
+                    </div>
+                    <div className="content">
+                      <h5>Money Transfer</h5>
+                      <p>Write me a 20 words advertising copy website section which talks about Health insurance services to immigrants.</p>
                   </div>
                 </div>
               </div>

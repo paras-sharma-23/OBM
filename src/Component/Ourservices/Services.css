@@ -21,10 +21,11 @@
     background-color: #e5e2c8;
     border-radius: 50px;
     margin-bottom: 25px;
-    margin-left: 44px;
+    margin-left: 36px;
     padding: 25px 25px 30px;
     transition: .3s;    
     width: 21%;
+    transition: all .3s ease-out 0s;
 }
 .grid-section:hover{
     background-color: #efb44b;
@@ -78,9 +79,12 @@
     line-height: 28px;
     margin-top: 0;
 }
-.grid-section p:nth-child(10-1){
-    font-size: 13px;
+svg{
+    padding-left: 3px;
 }
+/* .grid-section p:nth-child(10-1){
+    font-size: 13px;
+} */
 .grid-section button{
     color: #efb44b;
     font-size: 16px;

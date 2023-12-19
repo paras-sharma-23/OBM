@@ -23,7 +23,7 @@ const Nav = () => {
                     <a href="/" >About</a>
                     <a href="/" >Blogs</a>
                     <a href="/" >Counsellor</a>
-                    <a className='service' href="/" >Services
+                  <a className='service' href="/" >Services
                     <div className='display'>
                     <div class="dropdown-content">
                       <div className="conetnt">
@@ -64,7 +64,7 @@ const Nav = () => {
 
                      </div>
                     </div>
-                    </a>
+                  </a>
                     <a href="/" >Contact</a>       
                 </div>      
               <div className='none'>
