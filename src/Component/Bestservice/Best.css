@@ -4,20 +4,22 @@
     padding-top: 380px;
     padding-bottom: 110px;
 }
+.fifth-section .inner-container{
+        width: 100%;
+}
 .fifth-section .section-title h2{
     color: #efb44b;
     font-family: 'Lato',serif;
 }
 .card-wrapper{
-    display: flex;
+    display: flex !important;
 }
-.card{
-    /* background-color: #fff; */
+/* .card{
     width: 30%;
     margin-left: 40px;
     border-radius: 50px;
    
-}
+} */
 .carousel-item {
     display: flex !important;
 }
@@ -37,15 +39,17 @@ element.style {
     /* height: 253px; */
 }
 .card .image-box img{
-    width:  100%;
+    width:  -webkit-fill-available;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     display: block;
 }
 .card .content{
+    width: -webkit-fill-available;
     background-color: #fff;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
+    border: 1px solid grey;
 }
 .card .content h5{
     text-align: center;

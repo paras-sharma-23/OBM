@@ -29,7 +29,8 @@
 }
 .grid-section:hover{
     background-color: #efb44b;
-    transition: .4s;
+    transition: .1s;
+    /* transition-duration: 2s; */
 }
 .grid-section:hover h3{
     color: white;
@@ -81,6 +82,11 @@
 }
 svg{
     padding-left: 3px;
+}
+.grid-section button svg{
+    margin-left: 7px;
+    margin-top: -1px;
+    vertical-align: middle;
 }
 /* .grid-section p:nth-child(10-1){
     font-size: 13px;
@@ -137,6 +143,11 @@ svg{
     line-height: 1;
     padding: 22px 40px!important;
     text-transform: uppercase;
+}
+.right-container button svg{
+    margin-left: 7px;
+    margin-top: -1px;
+    vertical-align: middle;
 }
 
 @media screen and (max-width: 768px){

@@ -83,7 +83,33 @@ const Nav = () => {
                     <li><a href="">Counsellor</a></li>
                     <li><a href="">Blogs</a></li>
                     <li><a href="">About</a></li>
-                    <li><a href="">Service</a></li>
+                    <li><a href="">Service</a>
+                    <div class="dropdown-content">
+                      <div className="conetnt">
+                        <a href="">
+                          <h3>Insurance</h3>
+                          <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M6.34317 7.75732L4.92896 9.17154L12 16.2426L19.0711 9.17157L17.6569 7.75735L12 13.4142L6.34317 7.75732Z" fill="currentColor"></path></svg>
+
+                            <a href="#">Public Health</a>
+                            <a href="#">Private Health</a>
+                            <a href="#">Liability</a>
+                            <a href="#">Household</a>
+                            <a href="#">Legal</a>
+                            <a href="#">Expat</a>
+                            <a href="#">Dental</a>
+                            <a href="#">Life</a>
+                            <a href="#">Disability</a>
+                            <a href="#">Bike</a>
+                        </a>
+                      </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    </li>
                     <li><a href="">Contact</a></li>
                   </ul>   
                 </div>

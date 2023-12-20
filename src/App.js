@@ -24,8 +24,8 @@ function App() {
     <Services />
     <About />
     <Why />
-    <Best />
-    {/* <Coursel /> */}
+    {/* <Best /> */}
+    <Coursel />
     <Learn />
     <Description />
     <Contact />
